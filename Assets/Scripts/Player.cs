@@ -7,10 +7,14 @@ public class Player : MonoBehaviour
     public float speed;
     public float normalJumpForce;
     public float doubleJumpForce;
+    public float wallJumpForce;
 
     private Rigidbody2D rig;
     private bool onAir;
+    private bool onGround;
+    private bool onWall;
     private bool doubleJump;
+    private bool wallJump;
         
     // Start is called before the first frame update
     void Start()
@@ -57,11 +61,18 @@ public class Player : MonoBehaviour
         rig.AddForce(new Vector2(0f, doubleJumpForce), ForceMode2D.Impulse);
     }
 
+    void WallJump()
+    {
+        wallJump = true;
+        rig.AddForce(new Vector2(0f, wallJumpForce), ForceMode2D.Impulse);
+    }
+
     void OnTriggerStay2D(Collider2D collider)
     {
         if(collider.gameObject.tag == "Ground")
         {
             onAir = false;
+            onGround = true;
             doubleJump = false;
         }
     }
@@ -70,6 +81,7 @@ public class Player : MonoBehaviour
     {
         if(collider.gameObject.tag == "Ground")
         {
+            onGround = false;
             onAir = true;
         }
     }
