@@ -19,6 +19,9 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         // Shooting logic
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation); // Spawn the object
+        if (!PauseMenu.GameIsPaused)
+        {
+            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation); // Spawn the object
+        }
     }
 }
