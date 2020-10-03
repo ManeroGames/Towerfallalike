@@ -13,12 +13,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-10-03T14:53:50.311-03:00
-  initializedAtString: 2020-10-03T13:53:17.657-03:00
+  lastUpdatedAtString: 2020-10-03T17:37:11.335-03:00
+  initializedAtString: 2020-10-03T16:22:57.510-03:00
   localBranches:
+  - name: faelitu
+    tracking: origin/faelitu
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/faelitu
+    tracking: '[None]'
+  - name: origin/gabroso
+    tracking: '[None]'
+  - name: origin/guizera
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
@@ -33,8 +41,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - faelitu
     - master
     values:
+    - name: faelitu
+      remote:
+        name: origin
+        url: https://github.com/ManeroGames/Towerfallalike.git
+      trackingBranch: faelitu
     - name: master
       remote:
         name: origin
@@ -45,10 +59,28 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - faelitu
+      - gabroso
+      - guizera
       - HEAD
       - master
     subKeyValues:
     - Values:
+      - name: faelitu
+        remote:
+          name: origin
+          url: https://github.com/ManeroGames/Towerfallalike.git
+        trackingBranch: 
+      - name: gabroso
+        remote:
+          name: origin
+          url: https://github.com/ManeroGames/Towerfallalike.git
+        trackingBranch: 
+      - name: guizera
+        remote:
+          name: origin
+          url: https://github.com/ManeroGames/Towerfallalike.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin

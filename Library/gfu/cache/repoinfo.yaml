@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-10-03T15:19:32.718-03:00
+  lastUpdatedAtString: 2020-10-03T17:37:10.489-03:00
   initializedAtString: 2020-10-03T15:19:32.718-03:00
   currentGitRemote:
     name: origin
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: faelitu
+    tracking: origin/faelitu
   currentConfigBranch:
-    name: master
+    name: faelitu
     remote:
       name: origin
       url: https://github.com/ManeroGames/Towerfallalike.git
-    trackingBranch: master
+    trackingBranch: faelitu
   currentConfigRemote:
     name: origin
     url: https://github.com/ManeroGames/Towerfallalike.git

@@ -13,12 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-03T15:38:57.733-03:00
+  lastUpdatedAtString: 2020-10-03T18:30:53.395-03:00
   initializedAtString: 2020-10-03T15:19:35.731-03:00
   entries:
-  - path: .gitignore
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\.gitignore
-    projectPath: .gitignore
+  - path: Assets\Animations\Player.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\Player.controller
+    projectPath: Assets\Animations\Player.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Player.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\Player.prefab
+    projectPath: Assets\Prefabs\Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\frog_climb.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\frog_climb.anim
+    projectPath: Assets\Scenes\frog_climb.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\frog_climb.anim.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\frog_climb.anim.meta
+    projectPath: Assets\Scenes\frog_climb.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Scene1.unity
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\Scene1.unity
+    projectPath: Assets\Scenes\Scene1.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\CharacterController2D.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scripts\CharacterController2D.cs
+    projectPath: Assets\Scripts\CharacterController2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\PlayerMovements.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scripts\PlayerMovements.cs
+    projectPath: Assets\Scripts\PlayerMovements.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -28,21 +64,321 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\8c\8c6e61416f3ea7e4a0f0ced9a2ef8705
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\8c\8c6e61416f3ea7e4a0f0ced9a2ef8705
-    projectPath: Library\Artifacts\8c\8c6e61416f3ea7e4a0f0ced9a2ef8705
+  - path: Library\Artifacts\01\01be2cd864a510d1500e46f0777326eb
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\01\01be2cd864a510d1500e46f0777326eb
+    projectPath: Library\Artifacts\01\01be2cd864a510d1500e46f0777326eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
+    projectPath: Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
+    projectPath: Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
+    projectPath: Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
+    projectPath: Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1f\1fa2c3ff8d2ad4a258bd820c580374d7
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\1f\1fa2c3ff8d2ad4a258bd820c580374d7
+    projectPath: Library\Artifacts\1f\1fa2c3ff8d2ad4a258bd820c580374d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
+    projectPath: Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
+    projectPath: Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
+    projectPath: Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
+    projectPath: Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
+    projectPath: Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
+    projectPath: Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
+    projectPath: Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
+    projectPath: Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\3920577297bf10463734366817ed6779
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\39\3920577297bf10463734366817ed6779
+    projectPath: Library\Artifacts\39\3920577297bf10463734366817ed6779
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
+    projectPath: Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
+    projectPath: Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
+    projectPath: Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\58\584022a0a2986f7277248f2636358717
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\58\584022a0a2986f7277248f2636358717
+    projectPath: Library\Artifacts\58\584022a0a2986f7277248f2636358717
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
+    projectPath: Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
+    projectPath: Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
+    projectPath: Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
+    projectPath: Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
+    projectPath: Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
+    projectPath: Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
+    projectPath: Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
+    projectPath: Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
+    projectPath: Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\85\85d62639febf9200e0aa6fc88c5e70ed
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\85\85d62639febf9200e0aa6fc88c5e70ed
+    projectPath: Library\Artifacts\85\85d62639febf9200e0aa6fc88c5e70ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8c\8ca0b055f87d18613154325482b91098
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\8c\8ca0b055f87d18613154325482b91098
+    projectPath: Library\Artifacts\8c\8ca0b055f87d18613154325482b91098
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\93\9371f70faaf25472de097e7387e36133
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\93\9371f70faaf25472de097e7387e36133
+    projectPath: Library\Artifacts\93\9371f70faaf25472de097e7387e36133
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
+    projectPath: Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
+    projectPath: Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
+    projectPath: Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
+    projectPath: Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
+    projectPath: Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
+    projectPath: Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
+    projectPath: Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
+    projectPath: Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
+    projectPath: Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
+    projectPath: Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
+    projectPath: Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
+    projectPath: Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
+    projectPath: Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
+    projectPath: Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
+    projectPath: Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
+    projectPath: Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fb\fbeb1e3baa2d325db400810dbf3138dc
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\fb\fbeb1e3baa2d325db400810dbf3138dc
+    projectPath: Library\Artifacts\fb\fbeb1e3baa2d325db400810dbf3138dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
+    projectPath: Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a9\a97757aa06d5114a37d1923f0f77818e
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\a9\a97757aa06d5114a37d1923f0f77818e
-    projectPath: Library\Artifacts\a9\a97757aa06d5114a37d1923f0f77818e
+    workTreeStatus: 3
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -70,21 +406,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SceneVisibilityState.asset
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -115,6 +457,12 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
     projectPath: Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\InputManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

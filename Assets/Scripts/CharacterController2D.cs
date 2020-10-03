@@ -7,14 +7,17 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private float m_DoubleJumpForce = 400f;					// Amount of force added when the player double jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(1, 5)] [SerializeField] private float m_CrouchFallingSpeed = 2f;
+	[Range(1, 5)] [SerializeField] private float m_ClimbFallingSpeed = 0.2f;
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;							// Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
+	[SerializeField] private Transform m_FrontCheck;							// A position marking where to check for walls
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+	const float k_FrontRadius = .1f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
@@ -25,12 +28,14 @@ public class CharacterController2D : MonoBehaviour
 	[Space]
 
 	public UnityEvent OnLandEvent;
+	public BoolEvent OnClimbingEvent;
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
+	private bool isClimbing = false;
 
 	private void Awake()
 	{
@@ -41,21 +46,43 @@ public class CharacterController2D : MonoBehaviour
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+
+		if (OnClimbingEvent == null)
+			OnClimbingEvent = new BoolEvent();
 	}
 
 	public bool getGrounded() {
 		return m_Grounded;
 	}
 
-	public void Move(float move, bool crouch, bool jump, bool doubleJump)
+	public void Move(float move, bool crouch, bool jump, bool doubleJump, bool wall, float climb)
 	{
 		if (Physics2D.OverlapCircle(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround))
 		{
 			if (!m_Grounded)
 			{
 				m_Grounded = true;
+				m_Rigidbody2D.gravityScale = 3f;
 				OnLandEvent.Invoke();
 			}
+
+			isClimbing = false;
+			OnClimbingEvent.Invoke(isClimbing);
+		}
+
+		if (wall)
+		{
+			if (Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround))
+			{
+				/*m_Rigidbody2D.gravityScale = 0f;*/
+				isClimbing = true;
+				move = 0;
+				OnClimbingEvent.Invoke(isClimbing);
+			}
+		} else if (Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround) && isClimbing)
+		{
+			/*m_Rigidbody2D.AddForce(Physics.gravity * m_ClimbFallingSpeed);*/
+			m_Rigidbody2D.gravityScale = 0.3f;
 		}
 
 		// If crouching, check to see if the character can stand up

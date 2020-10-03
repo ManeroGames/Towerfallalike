@@ -6,13 +6,16 @@ public class PlayerMovements : MonoBehaviour
 {
     public CharacterController2D controller;
     public float runSpeed = 40f;
+    public float climbSpeed = 20f;
     public Animator animator;
 
     float horizontalMove = 0f;
+    float climbMove = 0f;
     bool jump = false;
     bool doubleJump = false;
     bool crouch = false;
     bool canDJump = true;
+    bool wallClimb = false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +27,9 @@ public class PlayerMovements : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        climbMove = Input.GetAxisRaw("Vertical") * climbSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        animator.SetFloat("ClimbSpeed", Mathf.Abs(climbMove));
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -43,6 +48,13 @@ public class PlayerMovements : MonoBehaviour
         {
             crouch = false;
         }
+
+        if (Input.GetAxis("Climb") > 0 || Input.GetButtonDown("ClimbKey")) {
+            wallClimb = true;
+        } else if (Input.GetAxis("Climb") == 0 || Input.GetButtonUp("ClimbKey"))
+        {
+            wallClimb = false;
+        }
     }
 
     public void OnLanding()
@@ -56,11 +68,17 @@ public class PlayerMovements : MonoBehaviour
         animator.SetBool("IsCrouching", isCrouching);
     }
 
+    public void OnClimbing(bool isClimbing)
+    {
+        animator.SetBool("IsClimbing", isClimbing);
+    }
+
     void FixedUpdate()
     {
         // Move our character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, doubleJump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, doubleJump, wallClimb, climbMove * Time.fixedDeltaTime);
         jump = false;
         doubleJump = false;
+
     }
 }
