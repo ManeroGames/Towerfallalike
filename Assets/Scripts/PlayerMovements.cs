@@ -39,7 +39,7 @@ public class PlayerMovements : MonoBehaviour
         if (Input.GetAxis("Vertical") < 0)
         {
             crouch = true;
-        } else if (Input.GetAxis("Vertical") >= 0)
+        } else if (Input.GetAxis("Vertical") >= 0 || Input.GetButtonUp("Crouch"))
         {
             crouch = false;
         }
