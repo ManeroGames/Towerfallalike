@@ -36,10 +36,10 @@ public class PlayerMovements : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Crouch"))
+        if (Input.GetAxis("Vertical") < 0)
         {
             crouch = true;
-        } else if (Input.GetButtonUp("Crouch"))
+        } else if (Input.GetAxis("Vertical") >= 0)
         {
             crouch = false;
         }
