@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public int damage = 40;
     public Rigidbody2D rb;
     public GameObject impactEffect;
+    private GameObject clone;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,8 @@ public class Bullet : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
-        Instantiate(impactEffect, transform.position, transform.rotation);
+        clone = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(gameObject);
+        Destroy(clone, .3f);
     }
 }

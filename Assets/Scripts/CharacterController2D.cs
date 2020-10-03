@@ -5,7 +5,8 @@ public class CharacterController2D : MonoBehaviour
 {
 	[SerializeField] private float m_JumpForce = 400f;							// Amount of force added when the player jumps.
     [SerializeField] private float m_DoubleJumpForce = 400f;					// Amount of force added when the player double jumps.
-	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
+	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
+	[Range(1, 5)] [SerializeField] private float m_CrouchFallingSpeed = 2f;
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;							// Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
@@ -19,8 +20,6 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
-
-    private bool isDoubleJumping = false;
 
 	[Header("Events")]
 	[Space]
@@ -44,45 +43,42 @@ public class CharacterController2D : MonoBehaviour
 			OnCrouchEvent = new BoolEvent();
 	}
 
-	private void FixedUpdate()
-	{
-		bool wasGrounded = m_Grounded;
-		m_Grounded = false;
-
-		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
-		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
-		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-		for (int i = 0; i < colliders.Length; i++)
-		{
-			if (colliders[i].gameObject != gameObject)
-			{
-				m_Grounded = true;
-				if (!wasGrounded)
-                    isDoubleJumping = false;
-					OnLandEvent.Invoke();
-			}
-		}
+	public bool getGrounded() {
+		return m_Grounded;
 	}
 
-
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool crouch, bool jump, bool doubleJump)
 	{
+		if (Physics2D.OverlapCircle(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround))
+		{
+			if (!m_Grounded)
+			{
+				m_Grounded = true;
+				OnLandEvent.Invoke();
+			}
+		}
+
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
 		{
 			// If the character has a ceiling preventing them from standing up, keep them crouching
 			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
 			{
-				crouch = true;
+				if (m_Grounded)
+					crouch = true;
 			}
 		}
-
+		
 		//only control the player if grounded or airControl is turned on
 		if (m_Grounded || m_AirControl)
 		{
 
-			// If crouching
-			if (crouch)
+			// If crouching	
+			if (crouch && !m_Grounded) 
+			{
+				m_Rigidbody2D.AddForce(Physics.gravity * m_CrouchFallingSpeed);
+			}
+			if (crouch && m_Grounded)
 			{
 				if (!m_wasCrouching)
 				{
@@ -133,12 +129,12 @@ public class CharacterController2D : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-		} else if (jump && !isDoubleJumping) // If the player should double jump...
+		}
+		
+		if (doubleJump) // If the player should double jump...
         {
             // Add a vertical force to the player.
-			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_DoubleJumpForce));
-            isDoubleJumping = true;
         }
 	}
 

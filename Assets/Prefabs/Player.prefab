@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5339340701294512306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.172, z: 0}
+  m_LocalPosition: {x: 0, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5339340702624819989}
@@ -146,6 +146,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -218,6 +219,7 @@ MonoBehaviour:
   m_JumpForce: 700
   m_DoubleJumpForce: 400
   m_CrouchSpeed: 0.4
+  m_CrouchFallingSpeed: 2
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
@@ -230,6 +232,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5339340702624819990}
+        m_TargetAssemblyTypeName: 
         m_MethodName: OnLanding
         m_Mode: 1
         m_Arguments:
@@ -244,6 +247,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5339340702624819990}
+        m_TargetAssemblyTypeName: 
         m_MethodName: OnCrouching
         m_Mode: 0
         m_Arguments:

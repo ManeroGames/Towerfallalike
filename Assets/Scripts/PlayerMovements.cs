@@ -10,7 +10,9 @@ public class PlayerMovements : MonoBehaviour
 
     float horizontalMove = 0f;
     bool jump = false;
+    bool doubleJump = false;
     bool crouch = false;
+    bool canDJump = true;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,10 @@ public class PlayerMovements : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
+            if (!controller.getGrounded() && canDJump) {
+                doubleJump = true;
+                canDJump = false;
+            }
         }
 
         if (Input.GetButtonDown("Crouch"))
@@ -42,6 +48,7 @@ public class PlayerMovements : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        canDJump = true;
     }
 
     public void OnCrouching (bool isCrouching)
@@ -52,7 +59,8 @@ public class PlayerMovements : MonoBehaviour
     void FixedUpdate()
     {
         // Move our character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, doubleJump);
         jump = false;
+        doubleJump = false;
     }
 }
