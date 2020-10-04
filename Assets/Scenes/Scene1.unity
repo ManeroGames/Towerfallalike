@@ -813,6 +813,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.097
       objectReference: {fileID: 0}
+    - target: {fileID: 810048057, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0959
+      objectReference: {fileID: 0}
     - target: {fileID: 5339340702624819984, guid: b5bcf9e941a539f49b35ab7d2c79db61,
         type: 3}
       propertyPath: m_Enabled
@@ -923,6 +927,11 @@ PrefabInstance:
       propertyPath: m_CrouchDisableCollider
       value: 
       objectReference: {fileID: 1614909893}
+    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
+        type: 3}
+      propertyPath: m_AirControl
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5339340702624819987, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}

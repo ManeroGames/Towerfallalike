@@ -71,6 +71,11 @@ public class PlayerMovements : MonoBehaviour
     public void OnClimbing(bool isClimbing)
     {
         animator.SetBool("IsClimbing", isClimbing);
+
+        if (isClimbing == true) {
+            animator.SetBool("IsJumping", false);
+            animator.SetBool("IsCrouching", false);
+        }
     }
 
     void FixedUpdate()
@@ -79,6 +84,5 @@ public class PlayerMovements : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, doubleJump, wallClimb, climbMove * Time.fixedDeltaTime);
         jump = false;
         doubleJump = false;
-
     }
 }

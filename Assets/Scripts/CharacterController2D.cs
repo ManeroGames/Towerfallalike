@@ -5,9 +5,10 @@ public class CharacterController2D : MonoBehaviour
 {
 	[SerializeField] private float m_JumpForce = 400f;							// Amount of force added when the player jumps.
     [SerializeField] private float m_DoubleJumpForce = 400f;					// Amount of force added when the player double jumps.
+	[SerializeField] private Vector2 m_WallJumpForce = new Vector2(400f, 400f);
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;          // Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(1, 5)] [SerializeField] private float m_CrouchFallingSpeed = 2f;
-	[Range(1, 5)] [SerializeField] private float m_ClimbFallingSpeed = 0.2f;
+	[Range(1, 5)] [SerializeField] private float m_ClimbFallingSpeed = 0.1f;
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;							// Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
@@ -37,9 +38,12 @@ public class CharacterController2D : MonoBehaviour
 	private bool m_wasCrouching = false;
 	private bool isClimbing = false;
 
+	private float defaultGravity;
+
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
+		defaultGravity = m_Rigidbody2D.gravityScale;
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
@@ -57,32 +61,38 @@ public class CharacterController2D : MonoBehaviour
 
 	public void Move(float move, bool crouch, bool jump, bool doubleJump, bool wall, float climb)
 	{
+		// Check if grounded
 		if (Physics2D.OverlapCircle(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround))
 		{
 			if (!m_Grounded)
 			{
 				m_Grounded = true;
-				m_Rigidbody2D.gravityScale = 3f;
 				OnLandEvent.Invoke();
 			}
 
-			isClimbing = false;
-			OnClimbingEvent.Invoke(isClimbing);
+			/*isClimbing = false;
+			OnClimbingEvent.Invoke(isClimbing);*/
 		}
 
-		if (wall)
+		// Climb mechanics
+		if (wall && Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround))
 		{
-			if (Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround))
-			{
-				/*m_Rigidbody2D.gravityScale = 0f;*/
-				isClimbing = true;
-				move = 0;
-				OnClimbingEvent.Invoke(isClimbing);
+		 	/*m_Rigidbody2D.AddForce(Physics.gravity * m_ClimbFallingSpeed);*/
+			m_Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+			/*m_Rigidbody2D.gravityScale = defaultGravity * m_ClimbFallingSpeed;*/
+			isClimbing = true;
+			move = 0;
+			OnClimbingEvent.Invoke(isClimbing);
+			if (jump) {
+				WallJump();
 			}
-		} else if (Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround) && isClimbing)
+		} else
 		{
-			/*m_Rigidbody2D.AddForce(Physics.gravity * m_ClimbFallingSpeed);*/
-			m_Rigidbody2D.gravityScale = 0.3f;
+			isClimbing = false;
+			m_Rigidbody2D.constraints = RigidbodyConstraints2D.None;
+			m_Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+			/*m_Rigidbody2D.gravityScale = defaultGravity;*/
+			OnClimbingEvent.Invoke(isClimbing);
 		}
 
 		// If crouching, check to see if the character can stand up
@@ -101,7 +111,7 @@ public class CharacterController2D : MonoBehaviour
 		{
 
 			// If crouching	
-			if (crouch && !m_Grounded) 
+			if (crouch && !m_Grounded && !wall) 
 			{
 				m_Rigidbody2D.AddForce(Physics.gravity * m_CrouchFallingSpeed);
 			}
@@ -151,20 +161,26 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 		// If the player should jump...
-		if (m_Grounded && jump)
+		if (m_Grounded && jump && !wall)
 		{
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
 		
-		if (doubleJump) // If the player should double jump...
+		if (doubleJump && !wall) // If the player should double jump...
         {
             // Add a vertical force to the player.
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_DoubleJumpForce));
         }
 	}
 
+	private void WallJump() {
+		m_Rigidbody2D.constraints = RigidbodyConstraints2D.None;
+		m_Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+		Flip();
+		m_Rigidbody2D.AddForce(m_WallJumpForce);
+	}
 
 	private void Flip()
 	{
