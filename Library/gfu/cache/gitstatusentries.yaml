@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-10-04T16:24:25.531-03:00
-  initializedAtString: 2020-10-04T15:20:29.087-03:00
+  lastUpdatedAtString: 2020-10-04T20:06:00.197-03:00
+  initializedAtString: 2020-10-04T19:53:57.525-03:00
   entries:
   - path: .gitignore
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\.gitignore
@@ -22,21 +22,1715 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\bullet_impact.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\bullet_impact.anim
+    projectPath: Assets\Animations\bullet_impact.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\death_effect.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\death_effect.anim
+    projectPath: Assets\Animations\death_effect.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\DeathEffect 1.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\DeathEffect
+      1.controller
+    projectPath: Assets\Animations\DeathEffect 1.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\DeathEffect.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\DeathEffect.controller
+    projectPath: Assets\Animations\DeathEffect.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_crouch.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_crouch.anim
+    projectPath: Assets\Animations\frog_crouch.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_double_jump.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_double_jump.anim
+    projectPath: Assets\Animations\frog_double_jump.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_hit.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_hit.anim
+    projectPath: Assets\Animations\frog_hit.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_idle.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_idle.anim
+    projectPath: Assets\Animations\frog_idle.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_jump.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_jump.anim
+    projectPath: Assets\Animations\frog_jump.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_run.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_run.anim
+    projectPath: Assets\Animations\frog_run.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\frog_wall_jump.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\frog_wall_jump.anim
+    projectPath: Assets\Animations\frog_wall_jump.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\ImpactEffect 1.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\ImpactEffect
+      1.controller
+    projectPath: Assets\Animations\ImpactEffect 1.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\ImpactEffect.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\ImpactEffect.controller
+    projectPath: Assets\Animations\ImpactEffect.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\pause_menu.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\pause_menu.anim
+    projectPath: Assets\Animations\pause_menu.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\PauseMenu.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\PauseMenu.controller
+    projectPath: Assets\Animations\PauseMenu.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Animations\Player.controller
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Animations\Player.controller
+    projectPath: Assets\Animations\Player.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Characters\Materials\GoblinTopDown.mat
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Characters\Materials\GoblinTopDown.mat
+    projectPath: Assets\Characters\Materials\GoblinTopDown.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Colors\Gold.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Colors\Gold.asset
+    projectPath: Assets\Colors\Gold.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\GitMerge-for-Unity-master.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master.meta
+    projectPath: Assets\GitMerge-for-Unity-master.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\CHANGELOG.md
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\CHANGELOG.md
+    projectPath: Assets\GitMerge-for-Unity-master\CHANGELOG.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\CHANGELOG.md.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\CHANGELOG.md.meta
+    projectPath: Assets\GitMerge-for-Unity-master\CHANGELOG.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\GameObjectMergeActions.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\GitMergeWindow.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeAction.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionChangeValues.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteComponent.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionDeleteGameObject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionExistence.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewComponent.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionNewGameObject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeActions\MergeActionParenting.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManager.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManagerPrefab.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\MergeManagerScene.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\ObjectDictionaries.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeBox.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeLogo.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\GitMergeStyles.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Resources\Licenses.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\ThirteenPixels.GitMerge.asmdef.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\GameObjectExtensions.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilter.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\MergeFilterBar.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectExtensions.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\ObjectID.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\PageView.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\Utilities\SerializedPropertyExtensions.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCS.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSException.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs.meta
+    projectPath: Assets\GitMerge-for-Unity-master\Editor\VCS\VCSGit.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\LICENSE.md
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\LICENSE.md
+    projectPath: Assets\GitMerge-for-Unity-master\LICENSE.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\LICENSE.md.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\LICENSE.md.meta
+    projectPath: Assets\GitMerge-for-Unity-master\LICENSE.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\package.json
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\package.json
+    projectPath: Assets\GitMerge-for-Unity-master\package.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\package.json.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\package.json.meta
+    projectPath: Assets\GitMerge-for-Unity-master\package.json.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\README.md
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\README.md
+    projectPath: Assets\GitMerge-for-Unity-master\README.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GitMerge-for-Unity-master\README.md.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\GitMerge-for-Unity-master\README.md.meta
+    projectPath: Assets\GitMerge-for-Unity-master\README.md.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MainMixer.mixer
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\MainMixer.mixer
+    projectPath: Assets\MainMixer.mixer
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Materials\Slippery.physicsMaterial2D
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Materials\Slippery.physicsMaterial2D
+    projectPath: Assets\Materials\Slippery.physicsMaterial2D
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Bullet.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\Bullet.prefab
+    projectPath: Assets\Prefabs\Bullet.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\DeathEffect.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\DeathEffect.prefab
+    projectPath: Assets\Prefabs\DeathEffect.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Goblin.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\Goblin.prefab
+    projectPath: Assets\Prefabs\Goblin.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\ImpactEffect.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\ImpactEffect.prefab
+    projectPath: Assets\Prefabs\ImpactEffect.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\PauseMenu.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\PauseMenu.prefab
+    projectPath: Assets\Prefabs\PauseMenu.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\Player.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Prefabs\Player.prefab
+    projectPath: Assets\Prefabs\Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\frog_climb.anim
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\frog_climb.anim
+    projectPath: Assets\Scenes\frog_climb.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\Menu.unity
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\Menu.unity
+    projectPath: Assets\Scenes\Menu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\MenuSettings.lighting
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\MenuSettings.lighting
+    projectPath: Assets\Scenes\MenuSettings.lighting
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\MenuSettings.lighting.meta
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\MenuSettings.lighting.meta
+    projectPath: Assets\Scenes\MenuSettings.lighting.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Scenes\Scene1.unity
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scenes\Scene1.unity
     projectPath: Assets\Scenes\Scene1.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\CharacterController2D.cs
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scripts\CharacterController2D.cs
-    projectPath: Assets\Scripts\CharacterController2D.cs
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop
+      Shadow.mat
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Drop Shadow.mat
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Drop Shadow.mat
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\PlayerMovements.cs
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Scripts\PlayerMovements.cs
-    projectPath: Assets\Scripts\PlayerMovements.cs
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Outline.mat
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Outline.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\Roboto-Bold SDF.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Sprite Assets\EmojiOne.asset
+    projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\Style Sheets\Default Style Sheet.asset
+    projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\TextMesh
+      Pro\Resources\TMP Settings.asset
+    projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_0.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_0.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_0.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_1.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_1.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_10.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_10.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_10.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_100.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_100.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_100.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_101.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_101.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_101.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_102.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_102.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_102.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_103.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_103.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_103.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_104.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_104.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_104.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_105.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_105.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_105.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_106.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_106.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_106.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_107.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_107.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_107.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_108.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_108.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_108.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_109.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_109.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_109.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_11.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_11.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_11.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_110.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_110.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_110.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_111.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_111.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_111.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_112.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_112.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_112.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_113.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_113.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_113.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_114.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_114.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_114.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_115.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_115.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_115.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_116.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_116.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_116.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_117.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_117.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_117.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_118.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_118.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_118.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_119.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_119.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_119.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_12.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_12.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_12.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_120.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_120.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_120.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_121.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_121.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_121.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_122.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_122.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_122.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_123.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_123.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_123.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_124.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_124.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_124.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_125.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_125.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_125.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_126.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_126.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_126.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_127.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_127.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_127.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_128.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_128.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_128.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_129.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_129.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_129.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_13.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_13.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_13.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_130.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_130.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_130.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_131.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_131.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_131.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_132.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_132.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_132.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_133.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_133.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_133.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_134.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_134.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_134.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_135.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_135.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_135.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_136.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_136.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_136.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_137.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_137.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_137.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_138.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_138.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_138.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_139.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_139.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_139.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_14.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_14.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_14.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_140.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_140.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_140.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_141.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_141.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_141.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_142.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_142.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_142.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_143.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_143.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_143.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_15.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_15.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_15.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_16.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_16.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_16.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_17.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_17.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_17.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_18.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_18.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_18.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_19.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_19.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_19.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_2.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_2.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_20.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_20.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_20.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_21.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_21.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_21.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_22.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_22.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_22.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_23.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_23.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_23.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_24.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_24.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_24.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_25.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_25.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_25.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_26.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_26.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_26.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_27.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_27.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_27.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_28.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_28.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_28.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_29.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_29.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_29.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_3.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_3.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_3.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_30.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_30.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_30.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_31.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_31.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_31.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_32.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_32.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_32.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_33.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_33.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_33.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_34.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_34.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_34.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_35.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_35.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_35.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_36.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_36.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_36.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_37.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_37.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_37.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_38.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_38.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_38.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_39.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_39.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_39.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_4.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_4.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_4.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_40.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_40.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_40.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_41.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_41.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_41.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_42.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_42.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_42.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_43.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_43.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_43.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_44.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_44.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_44.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_45.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_45.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_45.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_46.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_46.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_46.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_47.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_47.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_47.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_48.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_48.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_48.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_49.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_49.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_49.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_5.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_5.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_5.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_50.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_50.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_50.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_51.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_51.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_51.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_52.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_52.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_52.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_53.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_53.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_53.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_54.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_54.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_54.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_55.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_55.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_55.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_56.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_56.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_56.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_57.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_57.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_57.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_58.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_58.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_58.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_59.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_59.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_59.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_6.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_6.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_6.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_60.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_60.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_60.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_61.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_61.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_61.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_62.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_62.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_62.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_63.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_63.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_63.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_64.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_64.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_64.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_65.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_65.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_65.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_66.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_66.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_66.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_67.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_67.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_67.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_68.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_68.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_68.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_69.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_69.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_69.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_7.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_7.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_7.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_70.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_70.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_70.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_71.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_71.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_71.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_72.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_72.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_72.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_73.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_73.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_73.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_74.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_74.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_74.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_75.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_75.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_75.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_76.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_76.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_76.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_77.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_77.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_77.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_78.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_78.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_78.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_79.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_79.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_79.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_8.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_8.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_8.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_80.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_80.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_80.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_81.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_81.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_81.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_82.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_82.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_82.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_83.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_83.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_83.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_84.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_84.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_84.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_85.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_85.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_85.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_86.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_86.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_86.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_87.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_87.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_87.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_88.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_88.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_88.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_89.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_89.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_89.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_9.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_9.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_9.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_90.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_90.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_90.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_91.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_91.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_91.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_92.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_92.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_92.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_93.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_93.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_93.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_94.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_94.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_94.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_95.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_95.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_95.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_96.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_96.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_96.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_97.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_97.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_97.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_98.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_98.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_98.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Terrain (16x16)_99.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Terrain
+      (16x16)_99.asset
+    projectPath: Assets\Tiles\Terrain (16x16)_99.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Tiles\Tilemap.prefab
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Assets\Tiles\Tilemap.prefab
+    projectPath: Assets\Tiles\Tilemap.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,276 +1740,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
-    projectPath: Library\Artifacts\05\05d5e1e7a3222fa32f60a0cd7b679749
+  - path: Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
+    projectPath: Library\Artifacts\78\78500c60620a33e9d27ed4accd71cda8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
-    projectPath: Library\Artifacts\16\1644d9cd642753aef9c8e459fc00e952
+  - path: Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
+    projectPath: Library\Artifacts\e0\e07d82dd8027ce4f3384eef88b5ca784
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
-    projectPath: Library\Artifacts\18\183b26c2a27b73fed989c57172a58aed
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
-    projectPath: Library\Artifacts\1b\1ba1ddfb8ba154731b478a371f6014ae
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
-    projectPath: Library\Artifacts\20\20519b3e3fee0fc33ae9d374520071e0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
-    projectPath: Library\Artifacts\21\218e81f4355652d7b164e60f21b87f52
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\25\252cf659c8cbbea51794bc15f6bf7e9f
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\25\252cf659c8cbbea51794bc15f6bf7e9f
-    projectPath: Library\Artifacts\25\252cf659c8cbbea51794bc15f6bf7e9f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\25\257011ef8ff287ae973a7bcc5d0e2adb
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\25\257011ef8ff287ae973a7bcc5d0e2adb
-    projectPath: Library\Artifacts\25\257011ef8ff287ae973a7bcc5d0e2adb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
-    projectPath: Library\Artifacts\27\272ec8a82cb5f05a8b79dcaf8280dcd0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
-    projectPath: Library\Artifacts\28\285db26dc29d15b3f0dff6d45440a031
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
-    projectPath: Library\Artifacts\2a\2a8555554ba45b001f9cf9377c26bcf2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
-    projectPath: Library\Artifacts\2b\2be24eb5aeff2b1b006678b37f4c2dfb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
-    projectPath: Library\Artifacts\31\3182103087fa44af6cb8fd291cc97ccd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
-    projectPath: Library\Artifacts\35\35da9b3c9111f978ae7dfc1e4e198c48
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\3920577297bf10463734366817ed6779
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\39\3920577297bf10463734366817ed6779
-    projectPath: Library\Artifacts\39\3920577297bf10463734366817ed6779
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
-    projectPath: Library\Artifacts\43\438b9059cfcbbc5042a5c7abada2aefa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
-    projectPath: Library\Artifacts\44\44d71a1269bf28bdfbbb9c78e9240465
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
-    projectPath: Library\Artifacts\4c\4cd94bac0cbc195f462fec481b8cbd27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\584022a0a2986f7277248f2636358717
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\58\584022a0a2986f7277248f2636358717
-    projectPath: Library\Artifacts\58\584022a0a2986f7277248f2636358717
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
-    projectPath: Library\Artifacts\5c\5c2d4299fa41c0fdfefa5fa360488577
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
-    projectPath: Library\Artifacts\5f\5f522fc43df84ec22b142a6f443e805f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
-    projectPath: Library\Artifacts\67\67d1172a42ef9defb72f454e035f65f1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
-    projectPath: Library\Artifacts\6b\6b7c9fe7b1b728a8f296a17a58ae06ad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
-    projectPath: Library\Artifacts\6f\6f806fe6d868933a7ba91d6857ab5b04
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
-    projectPath: Library\Artifacts\71\71c92d1f994e7e47579821b94e3ccae1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
-    projectPath: Library\Artifacts\76\762e43606557f0087f1df7220185a7aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
-    projectPath: Library\Artifacts\84\8489f9e4a3bc3da96e16d95263e5867f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
-    projectPath: Library\Artifacts\9d\9d92f2f25c5e71d9b0133207827ec86d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a8\a8610d7a9000ae2ddb8c03585dea8b49
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\a8\a8610d7a9000ae2ddb8c03585dea8b49
-    projectPath: Library\Artifacts\a8\a8610d7a9000ae2ddb8c03585dea8b49
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
-    projectPath: Library\Artifacts\ae\aeeb43020b51e61bbc9008883d56eb53
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
-    projectPath: Library\Artifacts\b6\b655a52c0d384a8ecf3728a3148a45d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
-    projectPath: Library\Artifacts\be\be082cea4a427228e0c35f25a9145e26
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
-    projectPath: Library\Artifacts\c1\c1b0f4b3a4bd0d4113d0131651692ea7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
-    projectPath: Library\Artifacts\c5\c573636e7ed6e96e1714a6bb98f84765
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ca\cac594d66a2bc0295af475b0d7458946
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ca\cac594d66a2bc0295af475b0d7458946
-    projectPath: Library\Artifacts\ca\cac594d66a2bc0295af475b0d7458946
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
-    projectPath: Library\Artifacts\d2\d239780c988264c04ab5db3bcc6149c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
-    projectPath: Library\Artifacts\d6\d63b626d9b0ff6cc76993e312206ecc4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
-    projectPath: Library\Artifacts\dc\dc47e5d1b551ac413db1d3df57641380
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
-    projectPath: Library\Artifacts\dc\dc55d72b0e01f372f85b9dfbac421092
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
-    projectPath: Library\Artifacts\e3\e3ef6ad33ffd59b900a78f8b221ef12c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
-    projectPath: Library\Artifacts\ea\eab7c3768067610b2bb5016816e5300f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
-    projectPath: Library\Artifacts\ec\ecbdc86b440728403e461d83a2a7b853
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
-    projectPath: Library\Artifacts\f9\f9f5b82c63f7889ee83fc9f4faa98974
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
-    projectPath: Library\Artifacts\fb\fb0070ce592d137f76f8273a00e2e4f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
-    projectPath: Library\Artifacts\fd\fdfbc44e76bf411abacc71379bb2b8fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -370,9 +1812,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -388,9 +1830,105 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
-    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
-    projectPath: Library\StateCache\SceneView\60\60355ac35d51bbd3e2fe2e40adb9a8cb.json
+  - path: ProjectSettings\AudioManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ClusterInputManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\ClusterInputManager.asset
+    projectPath: ProjectSettings\ClusterInputManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\DynamicsManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\DynamicsManager.asset
+    projectPath: ProjectSettings\DynamicsManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\EditorSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\EditorSettings.asset
+    projectPath: ProjectSettings\EditorSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\GraphicsSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\InputManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\NavMeshAreas.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\Physics2DSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\PresetManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\PresetManager.asset
+    projectPath: ProjectSettings\PresetManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\TagManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\TimeManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\VersionControlSettings.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\VersionControlSettings.asset
+    projectPath: ProjectSettings\VersionControlSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\VFXManager.asset
+    fullPath: D:\Program Files\Unity\Hub\Projects\Towerfallalike\ProjectSettings\VFXManager.asset
+    projectPath: ProjectSettings\VFXManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
