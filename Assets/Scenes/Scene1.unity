@@ -809,28 +809,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 810048057, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.097
-      objectReference: {fileID: 0}
-    - target: {fileID: 810048057, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0702
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819984, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5339340702624819985, guid: b5bcf9e941a539f49b35ab7d2c79db61,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819987, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5339340702624819989, guid: b5bcf9e941a539f49b35ab7d2c79db61,
         type: 3}
@@ -887,53 +869,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1614909895}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerMovements, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnClimbing
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: OnClimbingEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: m_CrouchDisableCollider
-      value: 
-      objectReference: {fileID: 1614909893}
-    - target: {fileID: 5339340702624819991, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-        type: 3}
-      propertyPath: m_AirControl
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5339340702624819987, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5bcf9e941a539f49b35ab7d2c79db61, type: 3}
 --- !u!1001 &1181618544
 PrefabInstance:
@@ -123768,40 +123704,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
---- !u!1 &1614909892 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5339340702624819985, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1153441108}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1614909893
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614909892}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.02840818}
-  m_Size: {x: 0.14531823, y: 0.21307974}
-  m_Direction: 0
---- !u!114 &1614909895 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5339340702624819990, guid: b5bcf9e941a539f49b35ab7d2c79db61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1153441108}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614909892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c366df19a2cc964096b82602a45c4b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1645945056
 GameObject:
   m_ObjectHideFlags: 0
