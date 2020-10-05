@@ -30,6 +30,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public UnityEvent OnLandEvent;
 	public BoolEvent OnClimbingEvent;
+	public UnityEvent OnDoubleJumpEvent;
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -53,6 +54,9 @@ public class CharacterController2D : MonoBehaviour
 
 		if (OnClimbingEvent == null)
 			OnClimbingEvent = new BoolEvent();
+
+		if (OnDoubleJumpEvent == null)
+			OnDoubleJumpEvent = new UnityEvent();
 	}
 
 	public bool getGrounded() {
@@ -75,7 +79,8 @@ public class CharacterController2D : MonoBehaviour
 		}
 
 		// Climb mechanics
-		if (wall && Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround))
+		bool nextToWall = Physics2D.OverlapCircle(m_FrontCheck.position, k_FrontRadius, m_WhatIsGround);
+		if (wall && nextToWall)
 		{
 		 	/*m_Rigidbody2D.AddForce(Physics.gravity * m_ClimbFallingSpeed);*/
 			m_Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
@@ -172,6 +177,7 @@ public class CharacterController2D : MonoBehaviour
         {
             // Add a vertical force to the player.
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_DoubleJumpForce));
+			OnDoubleJumpEvent.Invoke();
         }
 	}
 
