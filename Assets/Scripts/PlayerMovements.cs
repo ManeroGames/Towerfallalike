@@ -60,6 +60,7 @@ public class PlayerMovements : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        animator.SetBool("IsDoubleJumping", false);
         canDJump = true;
     }
 
@@ -75,7 +76,12 @@ public class PlayerMovements : MonoBehaviour
         if (isClimbing == true) {
             animator.SetBool("IsJumping", false);
             animator.SetBool("IsCrouching", false);
+            animator.SetBool("IsDoubleJumping", false);
         }
+    }
+
+    public void OnDoubleJump() {
+        animator.SetBool("IsDoubleJumping", true);
     }
 
     void FixedUpdate()
