@@ -73,9 +73,6 @@ public class CharacterController2D : MonoBehaviour
 				m_Grounded = true;
 				OnLandEvent.Invoke();
 			}
-
-			/*isClimbing = false;
-			OnClimbingEvent.Invoke(isClimbing);*/
 		}
 
 		// Climb mechanics

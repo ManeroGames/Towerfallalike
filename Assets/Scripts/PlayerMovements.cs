@@ -49,7 +49,7 @@ public class PlayerMovements : MonoBehaviour
             crouch = false;
         }
 
-        if (Input.GetAxis("Climb") > 0 || Input.GetButtonDown("ClimbKey")) {
+        if (Input.GetAxis("Climb") > 0 || Input.GetButton("ClimbKey")) {
             wallClimb = true;
         } else if (Input.GetAxis("Climb") == 0 || Input.GetButtonUp("ClimbKey"))
         {
