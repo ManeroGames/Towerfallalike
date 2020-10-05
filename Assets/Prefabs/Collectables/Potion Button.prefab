@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3488135058560407589}
   - component: {fileID: 8142689398667923888}
   - component: {fileID: 6541685464555443203}
-  - component: {fileID: -3076013247691466866}
+  - component: {fileID: 7623636480142185529}
   m_Layer: 5
   m_Name: Potion Button
   m_TagString: Untagged
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -3076013247691466866}
+      - m_Target: {fileID: 7623636480142185529}
         m_TargetAssemblyTypeName: PotionItem, Assembly-CSharp
         m_MethodName: Use
         m_Mode: 1
@@ -132,7 +132,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &6541685464555443203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 701945313446379006, guid: f5ea68e31f7022e4f84211da68adb54d, type: 3}
---- !u!114 &-3076013247691466866
+--- !u!114 &7623636480142185529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,4 +158,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7c944f72305b154ea174e8be445f594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effect: {fileID: 0}
+  effect: {fileID: 3575104210035698479, guid: 89e9dfe27f1c52f409cf1ef6c67bfa0b, type: 3}
