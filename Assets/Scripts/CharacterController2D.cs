@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
@@ -16,6 +17,11 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
 	[SerializeField] private Transform m_FrontCheck;							// A position marking where to check for walls
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
+
+	[SerializeField] private int currency; 
+
+	  public GameObject txt;
+	  public Text coins;
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	const float k_FrontRadius = .1f; // Radius of the overlap circle to determine if grounded
@@ -191,5 +197,11 @@ public class CharacterController2D : MonoBehaviour
 		m_FacingRight = !m_FacingRight;
 
 		transform.Rotate(0f, 180f, 0f);
+	}
+
+	public void Currency()
+	{
+		currency++;
+		coins.text = currency.ToString();
 	}
 }
